@@ -272,4 +272,16 @@
     </div>
 </body>
 
+<script>
+    function onLoad()
+    {
+        let now = new Date();
+        let thisYear = now.getFullYear();
+        if (!(document.getElementById("year").innerHTML === thisYear.toString()))
+        {
+            document.getElementById("year").innerHTML = document.getElementById("year").innerHTML + "-" + thisYear.toString();
+        }
+    }
+</script>
+
 </html>
