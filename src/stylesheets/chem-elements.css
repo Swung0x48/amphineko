@@ -23,3 +23,13 @@
 .chem-element[data-element="neon"]:hover {
     background: #faa3a3;
 }
+
+.chem-element[data-element="sulfur"]::before {
+    content: '16';
+    font-size: 0.45em;
+    vertical-align: -0.5em;
+}
+
+.chem-element[data-element="sulfur"]:hover {
+    background: #FFD700;
+}
