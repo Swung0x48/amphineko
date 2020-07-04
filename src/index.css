@@ -57,7 +57,7 @@ html {
 }
 
 .header .small-labels .group::before,
-.header .small-labels .label::before {
+.header .small-labels .label::before {;
     color: #eee;
 }
 
